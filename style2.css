@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  background-image: url(gambar1.jpg);
+}
+
+.bangunan {
+  width: 100%;
+  height: 200px;
+  background-image: url(foto9.jpeg);
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  color: #5b99c2;
+  -webkit-text-stroke: 2px darkblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+img {
+  width: 400px;
+  height: 200px;
+}
+/* bagian fakta unik */
+.foto1 {
+  width: 200px;
+  height: 130px;
+  float: left;
+  margin-right: 5px;
+}
+
+/* .fakta {
+  width: 100px;
+  height: 50px;
+  display: inline;
+  background-color: skyblue;
+  text-align: center;
+} */
+
+.satu {
+  margin-right: 10px;
+}
+
+.kelas {
+  opacity: 0.75;
+  display: grid;
+  grid-template-columns: 300px 850px;
+}
+
+a:hover {
+  color: violet;
+}
+.gambar {
+  opacity: 1;
+  margin: 20px;
+  height: 192;
+  padding: 15px;
+  background-color: #5b99c2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset,
+    rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  width: 230px;
+}
+
+.artikel {
+  background-color: #5b99c2;
+  margin: 20px 0;
+}
+
+.artikel2 {
+  background-color: #5b99c2;
+  margin: 20px 0;
+  height: 200px;
+}
+.artikel3 {
+  background-color: #5b99c2;
+  margin: 19.5px 0;
+}
+
+.foto2 {
+  width: 180px;
+  float: left;
+  margin-right: 5px;
+}
+
+.gambar5 {
+  height: 250px;
+  margin: 20px;
+  padding: 15px;
+  background-color: #5b99c2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset,
+    rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  width: 212px;
+  height: 180;
+}
+
+.foto3 {
+  width: 200px;
+  height: 130px;
+  float: left;
+  margin-right: 5px;
+}
+
+.gambar6 {
+  margin: 20px;
+  padding: 15px;
+  background-color: #5b99c2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset,
+    rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  width: 232px;
+}
+
+.foto::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+p {
+  -webkit-text-stroke: 0.7px black;
+  color: white;
+}
+
+strong {
+  -webkit-text-stroke: 0.7px black;
+  color: white;
+}

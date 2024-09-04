@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  background-image: url(gambar1.jpg);
+}
+
+.bangunan {
+  width: 100%;
+  height: 200px;
+  background-image: url(foto9.jpeg);
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  color: #5b99c2;
+  -webkit-text-stroke: 2px darkblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+img {
+  width: 400px;
+  height: 200px;
+}
+
+.satu {
+  margin-right: 10px;
+}
+
+.artikel {
+  opacity: 0.75;
+}
+.bryan {
+  margin: 20px;
+  padding: 15px;
+  background-color: #5b99c2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset,
+    rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.jansen {
+  margin: 20px;
+  padding: 15px;
+  background-color: #5b99c2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset,
+    rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.chandra {
+  margin: 20px;
+  padding: 15px;
+  background-color: #5b99c2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset,
+    rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.maverik {
+  margin: 20px;
+  padding: 15px;
+  background-color: #5b99c2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset,
+    rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.kelas {
+  opacity: 0.75;
+  display: grid;
+  grid-template-columns: 280px 850px;
+  grid-template-rows: repeat(4, 200px);
+}
+
+/* .gambar {
+  opacity: 1;
+  margin: 20px;
+  height: 192;
+  padding: 15px;
+  background-color: #5b99c2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset,
+    rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  width: 230px;
+} */
+
+.foto1 {
+  width: 200px;
+  height: 130px;
+  float: left;
+  margin: 30px;
+}
+.foto2 {
+  width: 200px;
+  height: 130px;
+  float: left;
+  margin: 30px;
+}
+.foto3 {
+  width: 200px;
+  height: 130px;
+  float: left;
+  margin: 30px;
+}
+.foto4 {
+  width: 200px;
+  height: 130px;
+  float: left;
+  margin: 30px;
+}
+
+.gambar1 {
+  background-color: #5b99c2;
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 170px;
+}
+.gambar2 {
+  background-color: #5b99c2;
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 170px;
+}
+.gambar3 {
+  background-color: #5b99c2;
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 170px;
+}
+.gambar4 {
+  background-color: #5b99c2;
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 170px;
+}
+
+.foto::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+h2 {
+  -webkit-text-stroke: 0.7px black;
+  color: white;
+}
+p {
+  -webkit-text-stroke: 0.7px black;
+  color: white;
+}
+
+.taukan {
+  font-weight: 40px;
+  color: white;
+}
